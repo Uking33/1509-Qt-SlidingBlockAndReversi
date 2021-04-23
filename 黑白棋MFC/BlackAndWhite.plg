@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BlackAndWhite - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/BlackAndWhite.res" /d "_DEBUG" /d "_AFXDLL" "E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\BlackAndWhite.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/BlackAndWhite.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\BlackAndWhite.cpp"
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\BlackAndWhiteDoc.cpp"
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\BlackAndWhiteView.cpp"
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\MainFrm.cpp"
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\Reversi.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/BlackAndWhite.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Study\Now\专业课\C++\李钰钦-课程设计\黑白棋MFC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/BlackAndWhite.pdb" /debug /machine:I386 /out:"Debug/BlackAndWhite.exe" /pdbtype:sept 
+".\Debug\BlackAndWhite.obj"
+".\Debug\BlackAndWhiteDoc.obj"
+".\Debug\BlackAndWhiteView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Reversi.obj"
+".\Debug\StdAfx.obj"
+".\Debug\BlackAndWhite.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB4F2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BlackAndWhite.cpp
+BlackAndWhiteDoc.cpp
+BlackAndWhiteView.cpp
+MainFrm.cpp
+Reversi.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/BlackAndWhite.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\BlackAndWhite.sbr" ".\Debug\BlackAndWhiteDoc.sbr" ".\Debug\BlackAndWhiteView.sbr" ".\Debug\MainFrm.sbr" ".\Debug\Reversi.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+BlackAndWhite.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
